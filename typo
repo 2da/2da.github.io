@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>목차프로젝트</title>
+        <style>
+          .name{
+            line-height: 110%
+          }
+          body{
+            font-size: 11pt;
+            font-family: "AppleGothic", Sans-serif;
+            line-height: 80%
+          }
+            .lan{
+                right: 30px; position: fixed;
+            }
+            .eng{
+                color: black;
+                text-decoration: none;
+            }
+            .list{
+                padding: 0px;
+                border: 0px;
+                margin: 0px 0px 0px 340px;
+            }
+            .line{
+                margin: 50px 0px 0px 0px;
+            }
+            .name{
+                margin: 0px 0px 0px 100px;
+                float: left;
+                border-bottom: 1px solid
+            }  
+           .slist {
+                width: 500px;
+                margin: 40px 0px 0px 1200px;
+                line-height: 80%
+           }
+          .icon{
+                margin: 0px 0px 0px 1000px;
+          }
+        </style>
+    </head>
+    <body>
+        <p class="lan"><a href="index.html" class="eng">한글</a> / <a href="english.html" class="eng">English</a></p>
+        <br>
+    <h2>차례</h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <div>
+           <p class="name">김선정</p>
+           <div class="list">
+            <p class="en">플랫폼: 임시적 프로젝트 <strong>4</strong></p>
+            <p class="en">“I have nothing to say and I am saying it” <strong>14</strong></p></a>
+          </div>
+        </div>
+            <span class="icon"><a href="list.html" class="eng">▼</a></span>
+        <br>
+        <div>
+          <p class="name">바르또 마리</p>
+          <div class="list">
+            <p>≪무대 없는 연극≫과 ≪세상이라는 거대한 연극≫: </p>
+            <p>20세기 미술 안에서의 연극성에 대한 두 가지 실험 <strong>30</strong></p>
+          </div>
+        </div>
+        <div class="line">
+          <p class="name">박소현</p>
+          <div class="list">
+            <p>엥포르멜의 지정학과 ‘행동하는 화가’: </p>
+            <p>그 개념적 재배치의 계보 <strong>48</strong></p>
+          </div>
+        </div>
+        <div class="line">
+          <p class="name">수미토모 후미히코</p>
+          <div class="list">
+            <p>전후 일본 예술의 민족지적 전환 <strong>80</strong></p>
+          </div>
+        </div>
+        <div class="line">
+          <p class="name">슈양</p>
+          <div class="list">
+              <p>중국의 퍼포먼스와 라이브 아트 <strong>92</strong></p>
+          </div>
+        </div>
+            <br>
+       <div class="slist">
+         <p>강연 & 토크 <strong>234</strong></p>
+         <p>비디오 프로그램 <strong>264</strong></p>
+         <p>음악극 공연 <strong>272</strong></p>
+         <p>플랫폼 요코하마 <strong>276</strong></p>
+       </div>
+        <div class="line">
+          <p class="name">정현</p>
+          <div class="list">
+              <p>아방가르드와 걷기 <strong>282</strong></p>
+          </div>
+        </div>
+        <div class="line">
+          <p class="name">배은아</p>  
+          <div class="list">
+              <p>미래의 과거: 플랫폼 서울 2008 <strong>292</strong></p>
+          </div>
+         </div>
+      <br>
+      <br>
+  <br>
+    </body>
+</html>
