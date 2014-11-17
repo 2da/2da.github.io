@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>silver linings playbook</title>
+  <style>
+      @media print{
+        body {
+            background-color: white;
+            color: black;
+            text-align: center;
+            margin: 10px;
+        }
+          .right,.left{
+            display: block; 
+            width: 100px;
+            position: absolute;
+      }
+         .right{
+              right: 10px;
+          }
+          .left{
+              left: 10px;
+          }
+      }
+      
+    * {
+        font-family: "Nanum Gothic", "Helvetica", "tahoma", "sans-serif";
+    }
+      
+    div.page{ 
+        width:68%; 
+        margin:0 auto;
+    }
+    body{
+         background-color : #292a2c;
+         background-image: url(man1.png), url(women1.png);
+         background-size: 17%;
+         background-repeat: repeat-y, repeat-y;
+         background-position:top left, top right;
+         line-height: 160%;
+         color: white;
+         text-align: center;
+    }
+   h1{
+       margin:30px 10px 30px 10px;
+       font-size: 20px;
+   }
+    .color{
+        color: rgb(123, 179, 198); 
+        max-width: auto;
+    }  
+    .color3{
+        color: white; 
+        max-width: auto;
+    }  
+    .color2{
+        color: rgb(123, 179, 198);
+        max-width: auto; 
+        font-size: 16px;
+    }  
+    .love{list-style-type: none; 
+        max-width: auto; 
+        font-size:20px; 
+        line-height: 160%;
+    }
+    table{
+        margin: 0 auto; 
+    }
+    .explanation{
+        padding:0 0 10px 0;
+        list-style-type:none;
+    } 
+    .arrang{
+        font-size: 15px; 
+        margin:5% 5% 6% 5%; 
+        max-width: auto;
+    }
+    .picture{
+        margin: 0 auto; 
+        width:65%; 
+    }
+    .picture1{
+        width:100%;
+    }
+    .synopsys{
+        padding:0px 0px 0px 0px; 
+        font-size: 13px; 
+        line-height: 160%; 
+        margin: 6% 0 7% 0;
+    }  
+    .synopsys2{
+        padding:0px 0px 0px 0px; 
+        margin:0 0 5% 0; 
+        font-size: 20px; 
+        line-height: 160%;
+    }  
+    .academy{
+        list-style-type: none;  
+        text-align: center; 
+        font-size:16px; 
+        margin: 0 0 6% 0; 
+        padding-left:0;
+    }
+    .directer{
+        text-align: center; 
+        max-width: auto; 
+        font-size:16px; 
+        margin: 0 0 5% 0;
+    }
+    .awd{
+        padding:0px 0px 0px 0px; 
+        margin:0px 0px 0px 0px;
+    }
+    .work{
+        list-style-type: none; 
+        text-align: left; 
+        margin:0px; 
+        padding-left: 0;
+    }
+    .LEADING{
+        text-align: center; 
+        font-size: 12px;
+    }
+    .ACTOR{
+        border:2% solid #292a2c; 
+        text-align: center;
+    }
+    .lovefighting{
+        color: white; 
+        max-width: auto; 
+        font-size:20px; 
+        text-align: center; 
+        margin: 5% 0 5% 0;
+    }
+      .right,.left{
+          display: none; 
+          width: 60px;
+      }
+      .right{
+              position: right;
+          }
+          .left{
+              position: left;
+          }
+    </style> 
+    </head>
+    
+    
+<body>
+        
+    <div class="page">
+        <img class="left" src="hero.png" alt="Bradley Cooper">
+        <img class="right" src="women.png" alt="Jennifer Lawrence">
+  <p class="love">
+   <span>사랑</span>에 <span class="color">맛(?)</span>간 남자, <span>사랑</span>에 <span class="color">훅(?)</span>간 여자</p>
+         
+   <p class="explanation">
+       눈치없는 이.남.자. 정말 답이 없다면<br>
+       연애세포 완전 파괴. 복구확률 -200%</p>
+  
+        
+  <p class="explanation">
+      내숭 없는 이.여.자. 정말 대책 없다면<br>
+      연애세포 과다 방출. 치유확률 -100%</p>
+  
+        
+   <p class="explanation">
+      재생률 100%!<br>
+       연애세포 복구 프로젝트가 시작된다</p>
+
+        
+        
+   
+       <p class="synopsys">쉽게 자신에게 넘어오지 않는 팻을 위해<br>
+                            티파니는 헤어진 아내와의 재결합을 도와주는 대신,<br>
+                            자신과 함께 댄스 대회에 참가하자는 달콤한 제안을 하는데...<br>
+                            과연 그들은 사랑 때문에 고장(?)난 러브멘탈을 복구하고<br>
+                            그들만의 '실버라이닝'을 찾을 수 있을까?</p>
+     
+  <div class="arrang">'돌직구 커플'의 무한 연애긍정 에너지가 폭발한다!</div>
+  
+     
+      <p class="synopsys2">당신의<br>
+                           러브멘탈은<br>
+                           안녕하십니까?</p>
+  
+        
+  <h1>
+    <span class="color">실버라이닝</span><span class="color3">플레이북</span>
+  </h1>
+
+<div class="picture">        
+  <table>
+    <tbody>
+      <tr>
+        <td><img class="picture1" src="pic1.jpg" alt="movie picture"></td>
+        <td><img class="picture1" src="pci2.jpg" alt="movie picture"></td>
+        <td><img class="picture1" src="pic3.jpg" alt="movie picture"></td>
+      </tr>
+    </tbody>
+  </table>
+        </div>
+    
+  <div>
+      <p class = "hot">HOT ISSUE</p>
+    <ul class="academy">
+      <li class="color2">아카데미 8개 부문 노미네이트!</li>
+      <li class="color2">골든글로브 여우주연상 수상!</li>
+      <li>&lt;킹스 스피치&gt; &lt;슬럼독 밀리어네어&gt; 에 이어 토론토 국제영화제 관객상 수상!</li>
+      <li class="color2">로맨틱 커플의 공식이 바뀐다!</li>
+      <li>톡톡 튀는 개성만점 캐릭터의 색다른 로맨스가 당신의 연애세포를 자극한다!</li>
+      <li class="color2">2013 할리우드의 가장 핫한 만남!</li>
+      <li>할리우드에서 가장 뜨거운 여자 제니퍼로렌스&amp;가장 섹시한 남자 브래들리 쿠퍼!</li>
+      <li class="color2">섬세한 연출력, 연기파 배우의 시너지!</li>
+      <li>&lt;파이터&gt;감독과 로버트 드니로, 크리스 터커, 줄리아 스타일즈까지!</li>
+        </ul>
+   </div>
+
+   <div class="directer">
+    DIRECTOR
+     <div class="color"><span>데이빅 O. 러셀</span> 감독</div>
+       <p class="awd">&lt;파이터&gt; 로 탁월한 연출력을 인정받으며 아카데미 2개부문</p>
+       <p class="awd">골든글로브 2개 부문을 수상한 할리우드 최고의 감독</p>
+   </div>
+        
+        
+   <div class="LEADING">
+     <table class="ACTOR">
+       <caption class="LEADING">LEADING ACTOR</caption>
+       <thead>
+         <tr>
+           <th class="color">제니퍼 로렌스</th>
+           <th class="color">브래들리 쿠퍼</th>
+         </tr>
+       </thead>
+       <tbody>
+         
+       <tr>
+           <td>
+             <ul class="work">
+             <li>세레나</li>
+             <li>덤 앤 더머 투</li>
+             <li>헝거게임:모킹</li>
+             <li>엑스맨: 데이즈 오브 퓨처 패스트 </li>
+             </ul>
+             </td>
+           <td>
+             <ul class="work">
+               <li>아메리칸 스나이퍼</li>
+               <li>세레나</li>
+               <li>가디언즈 오브 갤럭시</li>
+               <li>행오버3</li>
+               </ul>
+           </td>
+         </tr>
+     </tbody>
+     </table>
+      </div>   
+     
+     <p class="lovefighting">고장난 심장이 다시 뛴다. 러브 파이팅!</p>
+       
+     
+           </div>
+        
+    </body>
+</html>
