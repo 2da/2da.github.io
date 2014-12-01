@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <title>Google Maps</title>
+   <style>
+     body{
+       font-family: 'Roboto', sans-serif;
+       font-size: 14px;
+     }
+    header{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 200px;
+      background-color: #4688f1 ;
+      z-index: 1;
+      color: white;
+    }   
+    .under{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 200px;
+      height: 50px;
+      background-color: #366ad3;
+      color: white;
+      box-shadow: 0 0 5px #666;
+    }
+     
+     .main{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 250px;
+      background-color: white;
+      z-index: -1;
+     }
+     
+    .icon, .iconcar, 
+    .iconarrow {
+      width: 30px;
+    }     
+    
+    .fa-bus{
+      color: #666666;
+    }
+     
+     .fa-angle-right{
+       color: #bababa;
+     }
+     
+     .fa-sliders{
+       margin-left: 20px;
+       margin-right: 20px;
+       color: #a9c8f8;
+     }
+     
+     .first img {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+     
+     .iconarrow {
+       margin-left: 10px;
+     }
+     
+     .first{
+       display: inline-block;
+       margin-left: 10%;
+     }
+     
+     ul{
+       display: inline-block;
+       list-style-type: none;
+     }
+     
+    .second {
+      position: absolute;
+      float: left;
+      right: 0;
+      left: 5%;
+      top: 40px;
+      margin-top: 20px;
+      color: white;
+    }
+     
+    hr{
+      width: 320px;
+      color: #a9c8f8;
+      display: inline-block;
+    }
+     
+    .under2{
+      margin-top: 15px;
+    }
+
+    .option{
+      float: right;
+      margin-right: 20px;
+    }
+     .info{
+       position: absolute;
+       float: left;
+       right: 0;
+       left: 5%;
+       top: 15px;
+       padding: 0;
+       margin: 0;
+     }
+     
+      .infou{
+        list-style: none;
+        padding-left: 70px;
+        padding-bottom: 20px;
+        margin: 20px 15px 0px 20px;
+        width: 85%;
+        border-bottom: 2px solid #999;
+      }
+     
+     
+     .time{
+       float: right;
+     }
+     
+     .every{
+       padding-left: 20px;
+     }
+     
+     .파란버스, .붉은버스,
+     .빨간버스, .초록버스{
+       padding-left: 4px;
+       padding-right: 4px;
+       color: white;
+     }
+     
+     .파란버스 {
+       background-color: #3a56ee;
+     }
+     
+     .붉은버스{
+       background-color: #cc3c13;
+     }
+     
+     .빨간버스{
+       background-color: #ef251b;
+     }
+     
+     .초록버스{
+       background-color: #37be3b ;
+     }
+
+     @media (max-width: 600px) {
+      
+    }
+     
+  </style>
+</head> 
+  
+<body>
+  <header>
+    <img class="iconarrow" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_arrow_back_24px.svg" alt="arrow back">
+    <div class="first">
+      <img class="iconcar" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_car_24px.svg" alt="car">
+      <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_subway_.svg" alt="subway">
+      <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk_a9c8f8.svg" alt="walk">
+    </div>
+    
+      <div class="second">
+        <ul>
+          <li><img  src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_place_24px.svg" alt="place"></li>
+          <li><img src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_more_vert_24px.svg" alt="more vert"></li>
+          <li><img src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_place_24px.svg" alt="place"></li>
+        </ul>
+        <ul>
+          <li>계원예술대학교</li>
+          <li><hr>
+        <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_arrow.svg" alt="arrow"></li>
+          <li>신사동가로수길</li>
+        </ul>
+      </div> 
+    
+  </header>
+  
+  <section class="under">
+    <div class="under2">
+      <i class="fa fa-sliders fa-lg"></i> 
+      Depart at 4:09 PM 
+      <span class="option">OPTIONS</span>
+    </div>
+  </section>
+  
+  <section class="main">
+    <div>
+      <ul class=info>
+        <li><img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_subway_646464.svg" alt="subway"></li>
+      </ul>
+      <ul class="infou">
+        <li><strong>4:09 - 5:35 PM</strong>  
+          <span class="time"><strong>1</strong>hr <strong>25</strong>min</span></li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk_646464.svg" alt="walk">
+        <i class="fa fa-angle-right fa-lg "></i>
+        <i class="fa fa-bus fa-2x"></i>
+          <span class="파란버스">1-1</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="파란버스">441</span>
+        </li>
+        <li>4:25 PM from 계원예술대학교</li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk.svg" alt="walk">10min 
+          <span class="every">Every 10min</span></li>
+      </ul>
+    </div>
+    
+    <div>
+      <ul class=info2>
+        <li><img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_subway_646464.svg" alt="subway"></li>
+      </ul>
+      <ul class="infou">
+        <li><strong>4:09 - 5:41 PM</strong>  
+          <span class="time"><strong>1</strong>hr <strong>31</strong>min</span></li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk_646464.svg" alt="walk">
+        <i class="fa fa-angle-right fa-lg "></i>
+        <i class="fa fa-bus fa-2x"></i>
+          <span class="파란버스">1-1</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="초록버스">4318</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="붉은버스">9404</span>
+          </li>
+        <li>4:25 PM from 계원예술대학교</li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk.svg" alt="walk">10min 
+          <span class="every">Every 12min</span></li>
+      </ul>
+    </div>
+    
+    <div>
+      <ul class=info3>
+        <li><img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_subway_646464.svg" alt="subway"></li>
+      </ul>
+      <ul class="infou">
+        <li><strong>4:09 - 5:35 PM</strong>  
+          <span class="time"><strong>1</strong>hr <strong>25</strong>min</span></li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk_646464.svg" alt="walk">
+        <i class="fa fa-angle-right fa-lg "></i>
+        <i class="fa fa-bus fa-2x"></i>
+          <span class="파란버스">51</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="파란버스">540</span>
+          <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="파란버스">148</span>
+          </li>
+        <li>4:25 PM from 계원예술대학교</li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk.svg" alt="walk">10min 
+          <span class="every">Every 12min</span></li>
+      </ul>
+    </div>
+    
+    <div>
+      <ul class=info4>
+        <li><img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/ic_directions_subway_646464.svg" alt="subway"></li>
+      </ul>
+      <ul class="infou">
+        <li><strong>4:09 - 5:35 PM</strong>  
+          <span class="time"><strong>1</strong>hr <strong>38</strong>min</span></li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk_646464.svg" alt="walk">
+        <i class="fa fa-angle-right fa-lg "></i>
+        <i class="fa fa-bus fa-2x"></i>
+          <span class="파란버스">51</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="빨간버스">3030</span>
+        <i class="fa fa-angle-right fa-lg"></i>
+        <i class="fa fa-bus fa-2x"></i>
+        <span class="파란버스">145</span>
+        </li>
+        <li>4:25 PM from 계원예술대학교</li>
+        <li><img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_walk.svg" alt="walk">11min 
+          <span class="every">Every 20min</span></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
