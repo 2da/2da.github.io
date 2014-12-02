@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <title>final test</title>
+  <style>
+    body{
+      background-color: #5cffbd;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      margin: 0 auto;
+      padding: 0 auto;
+      max-width: 500px;
+    }
+    
+    header{
+      position: absolute;
+      width: 400px;
+      top: 0;
+      left:0 auto;
+      height: 30px;
+      background-color: #0096a6;
+      z-index: 1;
+      box-shadow: 0 0 5px #999;
+    }
+    
+    .under1{
+      position: absolute;
+      width: 400px;
+      top: 30px;
+      left:0 auto;
+      height: 200px;
+      background-color: #00bcd4 ;
+      text-align: center;
+      box-shadow: 0 0 5px #999;
+    }
+    
+    .under2{
+      position: absolute;
+      width: 400px;
+      top: 230px;
+      left:0 auto;
+      height: 30px;
+      background-color: #5e5f5f;
+      color: #bfd7e3;
+    }
+    
+    .main{
+       position: absolute;
+      width: 400px;
+      top: 260px;
+      left:0 auto;
+      height: 260px;
+      background-color: #f5feff;
+      overflow-y: scroll;
+    }
+    
+    ul{
+      list-style-type: none;
+      padding: 0;
+      color: #cfd1d1; 
+    }
+    
+    .undericon, .icon,
+    .allowicon1, .allowicon2{
+      width: 20px;
+    }
+    
+    .icons{
+      width: 30px;
+    }
+    
+    .window{
+      margin-top: 5px;
+      margin-right: 10px;
+      float: right;
+    }
+    
+    .day{
+      font-weight: 300;
+      font-size: 50px;
+      color: #e1f8fa ;
+    }
+    
+    .allowicon1{
+      margin-top: 30px;
+      margin-left: 10px;
+      float: left;
+    }
+    .allowicon2{
+      margin-top: 30px;
+      margin-right: 10px;
+      float: right; 
+    }
+    
+    .date{
+      margin-top: 50px;
+    }
+    
+    .monday{
+      vertical-align: middle;
+      padding-left: 5px;
+    }
+    
+    .july{
+      color: #007686;
+    }
+    
+    .compose{
+      position: absolute;
+      top: 170px;
+      right: 10%;
+      background-color: #ffee4d;
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 24px;
+      color: #4e491a;
+      line-height: 50px;
+      box-shadow: 1px 1px 5px #666;
+      z-index: 2
+    }
+    
+    .main .list{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #cfd1d1;
+    }
+    
+    .listn{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    .side, .bell, .switch {
+      display: inline-block;
+    }
+    
+    .bell{
+      position: absolute;
+      float: left;
+      right: 0;
+      left: 3%;
+      padding-top: 40px;
+      margin: 0;
+    }
+    
+    .switch{
+      float: right;
+      left: 0;
+      right: 3%;
+      padding-top: 40px;
+      margin: 0;
+    }
+    
+    .bell li{
+      padding-bottom: 60px;
+    }
+    
+    .switch li{
+      padding-bottom: 50px;
+      padding-right: 20px;
+    }
+    
+    .side{
+        padding-left: 10%;
+        padding-bottom: 20px;
+        width: 75%;
+    }
+    
+    .time1,.time{
+      font-size: 30px;
+    }
+    
+    .time1{
+      color: #616161;
+    }
+    
+    .on{
+      color: #1f95f4;
+    }
+    
+
+  </style>
+</head>
+  
+<body>
+  <header>
+    <div class="window">
+    <img class="undericon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_85681.svg" alt="under">
+    <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_40318.svg" alt="big screen">
+    <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_85663.svg" alt="close screen">
+    </div>
+  </header>
+  
+  <section class="under1">
+    <div class="date">
+      <div>
+        <img class="allowicon1" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_6976.svg" alt="allow left">
+        <span class="day">18</span>
+        <img class="allowicon2" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_6977.svg" alt="allow right">
+      </div>
+      <div class="july">
+        July 2014
+     </div>
+    </div>
+    <div class="compose">
+      +
+    </div>
+  </section>
+  
+  <section class="under2">
+    <span class="monday">MONDAY</span>
+  </section>
+  <section class="main">
+    <ul class="bell">
+      <li>
+        <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_10521_1.svg" alt="on">
+      </li>
+      <li>
+        <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_10521.svg" alt="off">
+      </li>
+      <li>
+      <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_10521_1.svg" alt="on">
+      </li>
+      <li>
+        <img class="icon" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_10521.svg" alt="off">
+      </li>
+    </ul>
+    
+    <ul class="side">
+      <li class="list">
+        <span class="time1">06:30</span>
+        <div class="week"><span class="on">SU</span> MO <span class="on">TU WE</span> TH <span class="on">FR SA</span></div>
+      </li>
+      <li class="list">
+        <span class="time">09:30</span>
+        <div class="week">SU MO TU <span class="on">WE</span> TH FR SA</div>
+      </li>
+      <li class="list">
+        <span class="time1">15:30</span>
+        <div class="week"><span class="on">SU</span> MO TU WE TH FR SA</div>
+      </li>
+      <li class="listn">
+        <span class="time">18:00</span>
+        <div class="week">SU MO TU WE TH <span class="on">FR</span> SA</div>
+      </li>
+    </ul>
+    
+    <ul class="switch">
+      <li>
+        <img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_12249.svg" alt="on">
+      </li>
+      <li>
+        <img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_32372.svg" alt="off">
+      </li>
+      <li>
+      <img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_12249.svg" alt="on">
+      </li>
+      <li>
+        <img class="icons" src="https://googledrive.com/host/0B1ESef0HQqQ9Vnp5dlA0TURES0E/icon_32372.svg" alt="off">
+      </li>
+    </ul>
+    
+  </section>
+</body>
+</html>
